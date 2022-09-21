@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "practice"
+version = "0.1.0"
+description = "A sandbox for assesing technical solutions to analytics problems"
+authors = ["ondrejik <ondrejik@fb.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+kats = "^0.2.0"
+pandas = "1.3.5"
+jupyter = "^1.0.0"
+ipykernel = "^6.15.3"
+pyobjc = "^8.5.1"
+ax-platform = "0.2.4"
+gpytorch = "1.6.0"
+botorch = "0.6.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
